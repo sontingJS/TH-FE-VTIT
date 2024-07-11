@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+}
+
+.content-left {
+    background: url(../images/Rectangle\ 9192.svg);
+    width: 940px;
+    height: 1080px;
+    background-size: contain;
+}
+
+.banner {
+    background: url(../images/Group\ 18161.svg) center center no-repeat;
+    height: 380.81px;
+    width: 504.82px;
+    background-size: contain;
+    margin-top: 80px;
+    margin-left: 158px;
+}
+
+.titlle-1 {
+    margin-left: 203px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+    color: #5680F9;
+    max-width: 450px;
+}
+
+.titlle-2 {
+    margin-top: 10px;
+    margin-left: 177px;
+    max-width: 500px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5680F9;
+}
+
+.content-right {}
+
+.form-input {
+    width: 350px;
+    height: 421px;
+    text-align: center;
+    top: 140px;
+    position: absolute;
+    margin-left: 4px;
+    box-shadow: 0px 4px 24px 0px rgba(86, 85, 210, 0.24);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.form-input-change-pw{
+    width: 350px;
+    height: 475px;
+    text-align: center;
+    top: 120px;
+    position: absolute;
+    margin-left: 4px;
+    box-shadow: 0px 4px 24px 0px rgba(86, 85, 210, 0.24);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.form-input1 {
+    width: 350px;
+    height: 470px;
+    text-align: center;
+    top: 140px;
+    position: absolute;
+    margin-left: 4px;
+    box-shadow: 0px 4px 24px 0px rgba(86, 85, 210, 0.24);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.logo {
+    width: 182.01px;
+    height: 95.76px;
+    margin-top: 48.52px;
+    left: 1401px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.text-1 {
+    margin: 10px 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    color: #EE0033;
+}
+
+.input-password1 {
+    width: 295px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid rgba(141, 153, 187, 1);
+    margin-left: 14px;
+}
+
+.input-password {
+    width: 295px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid rgba(141, 153, 187, 1);
+}
+
+.input-password-3 {
+    width: 295px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid rgba(141, 153, 187, 1);
+    margin: 8px 17px;
+}
+
+.account {
+    margin-bottom: 20px;
+}
+
+.btn-login {
+    width: 313px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    margin: 20px 0;
+    background: rgba(238, 0, 51, 1);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.forgot-password {
+    margin-top: -17px;
+    margin-left: 190px;
+    font-size: 14px;
+}
+
+.save-password {
+    margin-top: 5px;
+    margin-left: -190px;
+    font-size: 14px;
+}
+
+.suggest {
+    font-size: 14px;
+}
+
+.header {
+    width: 349px;
+    height: 45px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+    background: rgba(238, 0, 51, 1);
+    text-align: center;
+    padding-top: 17px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.turn-back {
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: auto;
+    cursor: pointer;
+    font-size: 13px !important;
+}
+
+.text-FP-1 {
+    margin: 2px 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    color: #EE0033;
+    margin-right: 130px;
+}
+
+.text-2 {
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 23px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-FP {
+    width: 320px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    margin: -5px 0;
+    background: rgba(208, 210, 213, 1);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.resend {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.btn-resend-code {
+    /* Rectangle 9181 */
+
+    box-sizing: border-box;
+    position: absolute;
+    /* secondary/1 */
+    border: 1px solid #5680F9;
+    border-radius: 0px 8px 8px 0px;
+    height: 32px;
+    left: 255px;
+    cursor: pointer;
+    outline: none;
+}
+
+.img1 {
+    margin-top: 10px;
+}
+
+.account-1 {
+    display: flex;
+}
+
+.a {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 11px;
+    color: rgba(86, 128, 249, 1);
+    left: 30px;
+}
+
+.fa-eye-slash:before {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 12px;
+    color: rgba(86, 128, 249, 1);
+    right: 22px;
+    top: 318px;
+}
+
+.fa-eye:before {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 12px;
+    color: rgba(86, 128, 249, 1);
+    right: 22px;
+    top: 377px;
+}
+.error-message{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    right: 11px;
+    position: absolute;
+    margin-left: 4px;
+    box-shadow: 0px 4px 24px 0px rgba(86, 85, 210, 0.24);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    display: none;
+    justify-content: space-between;
+}
+.error-message-text{
+    width: 85%;
+    font-size: 14px;
+    margin-top: 7px;
+    color: rgba(238, 0, 51, 1);
+
+}
+.message-icon{
+    width: 15%;
+    background: rgba(238, 0, 51, 1);
+    border-radius: 5px 0px 0px 5px;
+}
+.message-icon i{
+    margin-top: 10px;
+    color: white;
+}

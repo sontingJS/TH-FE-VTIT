@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-left">
+            <div class="banner"></div>
+            <div class="titlle-1">Hệ thống quản lý chat đa nền tảng</div>
+            <div class="titlle-2">Tiết kiệm thời gian tư vấn và chăm sóc khách hàng</div>
+            <div class="next"></div>
+        </div>
+        <div class="content-right">
+            <div id="errorMessage" class="error-message">
+                <div class="message-icon"><i class="far fa-times-circle"></i></div>
+                <div class="error-message-text">Bạn đã nhập sai tài khoản hoặc mật khẩu</div>
+            </div>
+            <div class="form-input" id="formLogin">
+                <form id="formInput">
+                    <img src="../images/Group 16085.svg" class="logo" />
+                    <div class="text-1">Đăng nhập vào tài khoản của bạn</div>
+                    <div class="input">
+                        <div class="account"><input type="text" placeholder="Nhập tài khoản" class="input-password"
+                                id="userId" />
+                            <div style="display: none; text-align: left; margin-left: 22px; margin-top: 5px; color: red;"
+                                id="userIdError" >Bạn chưa nhập tài khoản</div>
+                        </div>
+
+                        <div class="password"><input type="password" placeholder="Nhập mật khẩu"
+                                class="input-password"
+                                id="userPassword" />
+                                <div style=" display: none;text-align: left; margin-left: 22px; margin-top: 5px; color: red;"
+                                id="userPasswordError">Bạn chưa nhập mật khẩu</div>
+                        </div>
+                        <div class="save-password"><input type="checkbox" /> Lưu mật khẩu</div>
+                    </div>
+                    <div class="forgot-password"><a style="text-decoration: none;" href="ForgotPassword.html">Quên mật
+                            khẩu</a></div>
+                    <div class="btn"><button type="submit" class="btn-login">Đăng nhập</button></div>
+                    <div class="suggest">Bạn có tài khoản chưa? <a href="#" style="text-decoration: none;">Đăng kí</a>
+                    </div>
+                </form>
+            </div>
+            <div class="form-input-change-pw" id="formChangePassword" style="display: none;">
+                <div class="header"><div class="turn-back"><a href="Login.html" style="text-decoration: none; color: white ; margin-top: -10px;"><img src="../images/icon.svg" style="position: relative; top:9px ">Quay lại</a></div>Đổi mật khẩu</div>
+                <img src="../images/aaa.svg" class="img" height="150px" width="150px">
+                <div class="text-FP-1">Đăng nhập lần đầu</div>
+                <div class="text-2">Đây là lần đầu tiên đăng nhập của bạn, bước đầu tiên bạn cần đổi mật khẩu để đảm bảo tính bảo mật cho tài khoản</div>
+                    <div class="account"><input type="text" placeholder="Nhập mật khẩu mới" class="input-password" /></div>
+                    <div class="account"><input type="text" placeholder="Nhập lại mật khẩu mới" class="input-password" /></div>
+                    <div class="btn"><button onclick="" class="btn-FP">Tiếp tục</button></div>
+
+    </div>
+        </div>
+    </div>
+    
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
